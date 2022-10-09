@@ -51,5 +51,5 @@ public class Customer
     @DateTimeFormat(iso = ISO.DATE)
     @Temporal(TemporalType.DATE)
     @Column(name = "Dob")
-    private Date empDob;
+    private Date custDob;
 }
