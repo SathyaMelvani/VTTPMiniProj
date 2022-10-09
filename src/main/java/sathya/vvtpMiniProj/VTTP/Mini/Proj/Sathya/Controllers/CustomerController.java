@@ -26,8 +26,8 @@ public class CustomerController {
         return "CustomerRegister";
     }
         @PostMapping("/register")
-        public String saveCustomer(@ModelAttribute Customer emp) {
-            service.saveCustomer(emp);
+        public String saveCustomer(@ModelAttribute Customer cust) {
+            service.saveCustomer(cust);
             return "redirect:all";
 
         }
